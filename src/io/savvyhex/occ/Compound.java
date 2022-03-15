@@ -17,6 +17,10 @@ public class Compound {
         if (npC != 0)
             name += prePrefix[choose(prePrefix.length)];
 
+        int pC = 0;
+        do {
+            pC = choose(prefix.length);
+        } while (pC < npC);
         name += prefix[choose(prefix.length)];
         name += homologousSuffix[choose(homologousSuffix.length)];
         name += suffix[choose(suffix.length)];
