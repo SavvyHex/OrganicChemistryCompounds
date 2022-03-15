@@ -17,7 +17,7 @@ public class Compound {
         if (npC != 0)
             name += prePrefix[choose(prePrefix.length)];
 
-        int pC = 0;
+        int pC;
         do {
             pC = choose(prefix.length);
         } while (pC < npC);
