@@ -8,11 +8,10 @@ public class Utility {
         return ran.nextInt(max);
     }
     public static String capitalize(String s){
-        StringBuilder cS = new StringBuilder();
-        cS.append(Character.toUpperCase(s.charAt(0)));
-        for (int i = 1; i < s.length(); i++)
-            cS.append(s.charAt(i));
-        return cS.toString();
+        String cS = "";
+        cS += Character.toUpperCase(s.charAt(0));
+        cS += s.substring(1);
+        return cS;
     }
     public static boolean chance(int chanceOfSuccess){
         return ran.nextInt(99)+1 <= chanceOfSuccess;
