@@ -14,4 +14,7 @@ public class Utility {
             cS.append(s.charAt(i));
         return cS.toString();
     }
+    public static boolean chance(int chanceOfSuccess){
+        return ran.nextInt(99)+1 <= chanceOfSuccess;
+    }
 }
