@@ -5,6 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import static io.savvyhex.occ.Utility.capitalize;
+
 public class OCC implements ActionListener {
     private static JLabel c1;
     private static JLabel c2;
@@ -91,33 +93,33 @@ public class OCC implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         compound = new Compound();
-        c1.setText(compound.getName());
+        c1.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c2.setText(compound.getName());
+        c2.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c3.setText(compound.getName());
+        c3.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c4.setText(compound.getName());
+        c4.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c5.setText(compound.getName());
+        c5.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c6.setText(compound.getName());
+        c6.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c7.setText(compound.getName());
+        c7.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c8.setText(compound.getName());
+        c8.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c9.setText(compound.getName());
+        c9.setText(capitalize(compound.getName()));
 
         compound = new Compound();
-        c10.setText(compound.getName());
+        c10.setText(capitalize(compound.getName()));
     }
 }
