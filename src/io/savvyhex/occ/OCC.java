@@ -81,7 +81,7 @@ public class OCC implements ActionListener {
         panel.add(c10);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("OCC");
+        frame.setTitle("OCC v1.09");
         frame.pack();
         frame.setVisible(true);
     }
